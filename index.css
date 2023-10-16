@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(189, 186, 186);
+    margin-top: 5%;
+    
+}
+
+.input{
+    width: 257px;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+#AC{
+    background-color: aquamarine;
+    padding: 21px;
+
+}
+
+.button{
+    padding: 40px;
+}
+
+/* second container start */
+
+
+.secondcontainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 100px;
+    color: white;
+    column-gap: 100px;
+
+}
+
+.row{
+    width: 300px;
+    background-color: black;
+    color: white;
+    line-height: 98px;
+    
+}
+
+.second-row{
+    display: grid;
+    grid-template-rows: 59px;
+    align-items: center;
+    background-color: rgb(112, 111, 111);
+    
+}
