@@ -5,14 +5,23 @@ body{
 }
 
 .input{
-    width: 257px;
+    width: 240px;
     padding: 20px;
-    border: 2px solid white;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: green;
+    font-weight: bolder;
+
 }
 
 #AC{
-    background-color: aquamarine;
-    padding: 21px;
+    
+   background-color: aqua;
+   padding: 18px;
+   font-size: 21px;
+   border: 1px solid black;
+   
 
 }
 
@@ -20,23 +29,40 @@ body{
     padding: 40px;
 }
 
+.button:hover{
+    background-color: wheat;
+    font-weight: bolder;
+    color: black;
+    
+}
+
+
+
 /* second container start */
 
 
 .secondcontainer{
+    width: 500px;
+    margin: 0 auto;
     display: grid;
     justify-content: center;
     grid-template-columns: 200px 100px;
     color: white;
-    column-gap: 100px;
+    column-gap: 80px;
+    
 
+}
+
+.firstcol{
+    background-color: gray;
 }
 
 .row{
     width: 300px;
     background-color: black;
     color: white;
-    line-height: 98px;
+    line-height: 100px;
+    
     
 }
 
@@ -44,6 +70,11 @@ body{
     display: grid;
     grid-template-rows: 59px;
     align-items: center;
-    background-color: rgb(112, 111, 111);
+    background-color: burlywood;
+    height: 463px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid black;
     
 }
